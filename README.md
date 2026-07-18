@@ -2,7 +2,7 @@
 
 ## Team Members
 - Malaika Naz
-- Saba
+- Saba Hayat
 
 ## Project Overview
 This project is being developed as part of the Ezitech AI Internship.
