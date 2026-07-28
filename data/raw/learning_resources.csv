@@ -1,0 +1,6 @@
+resource_id,title,type,platform
+LR001,Python for Beginners,Course,Coursera
+LR002,FastAPI Documentation,Documentation,FastAPI
+LR003,Neo4j Graph Academy,Course,Neo4j
+LR004,LangChain Documentation,Documentation,LangChain
+LR005,TensorFlow Tutorials,Course,TensorFlow

@@ -1,0 +1,6 @@
+product_id,name,description,owner_department
+PROD001,Internship Portal,Platform for managing internship applications and progress,Internship Department
+PROD002,Learning Management System,"Platform for courses, assignments and learning resources",Training Department
+PROD003,CRM,Customer Relationship Management System,Business Development
+PROD004,HRMS,Human Resource Management System,Human Resources
+PROD005,Project Management System,System for managing engineering projects and teams,Engineering

@@ -1,0 +1,21 @@
+skill_id,name,category,difficulty
+SK001,Python,Programming,Intermediate
+SK002,SQL,Database,Beginner
+SK003,Git,Version Control,Beginner
+SK004,GitHub,Version Control,Beginner
+SK005,Docker,DevOps,Intermediate
+SK006,FastAPI,Backend,Intermediate
+SK007,LangChain,AI,Advanced
+SK008,TensorFlow,AI,Advanced
+SK009,MongoDB,Database,Intermediate
+SK010,React,Frontend,Intermediate
+SK011,JWT Authentication,Backend,Intermediate
+SK012,REST API,Backend,Intermediate
+SK013,Redis,Database,Advanced
+SK014,Neo4j,Graph Database,Advanced
+SK015,Cypher,Graph Query,Advanced
+SK016,Machine Learning,AI,Intermediate
+SK017,Computer Vision,AI,Advanced
+SK018,NLP,AI,Advanced
+SK019,Pandas,Data Science,Beginner
+SK020,NumPy,Data Science,Beginner

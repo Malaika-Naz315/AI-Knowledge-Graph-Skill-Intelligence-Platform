@@ -1,0 +1,11 @@
+mentor_id,name,email,specialization,experience,designation,department
+MEN001,Anthony Everett,ewilson@example.com,UI/UX,5,Technical Mentor,Web Development
+MEN002,Kenneth Parks Jr.,christopher31@example.net,Data Science,9,Lead Software Engineer,Web Development
+MEN003,Lisa Gibbs,kimberlyjames@example.com,Natural Language Processing,14,Technical Mentor,Mobile Development
+MEN004,Kevin Patterson,lynchjody@example.org,Laravel,10,Data Science Mentor,Mobile Development
+MEN005,Deborah Miller,glennjones@example.org,Machine Learning,6,Lead Software Engineer,AI Department
+MEN006,Michael Harrison,halljasmine@example.net,Laravel,3,Data Science Mentor,Web Development
+MEN007,Andrea Hall,kristin93@example.com,Natural Language Processing,12,Lead Software Engineer,AI Department
+MEN008,Danny Hernandez,margaret10@example.org,Machine Learning,14,Senior AI Engineer,Software Engineering
+MEN009,Linda Holloway,scott74@example.net,Machine Learning,3,Technical Mentor,AI Department
+MEN010,Dillon Fernandez,cmiller@example.com,UI/UX,6,Technical Mentor,Mobile Development

@@ -1,0 +1,6 @@
+case_study_id,title,domain,difficulty,description
+CS001,JWT Authentication System,Backend Development,Intermediate,Implementation of secure JWT authentication.
+CS002,AI Knowledge Graph,Artificial Intelligence,Advanced,Building an enterprise knowledge graph using Neo4j.
+CS003,Computer Vision OCR,Computer Vision,Advanced,OCR system using deep learning.
+CS004,Redis Caching,Backend Development,Intermediate,Performance optimization using Redis.
+CS005,REST API Development,Backend Development,Beginner,Designing REST APIs with FastAPI.

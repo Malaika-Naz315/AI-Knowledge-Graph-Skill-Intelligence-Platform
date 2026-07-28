@@ -1,0 +1,51 @@
+student_id,name,email,university,degree,internship_track,github,linkedin,experience_level
+STU001,Allison Hill,donaldgarcia@example.net,NUST,BS Artificial Intelligence,DevOps,https://github.com/garzaanthony,https://linkedin.com/in/robinsonwilliam,Intermediate
+STU002,Cristian Santos,lrobinson@example.com,Air University,BS Computer Science,MERN Stack,https://github.com/blakeerik,https://linkedin.com/in/jpeterson,Advanced
+STU003,Phillip Garcia,wdavis@example.net,NUST,BS Information Technology,Artificial Intelligence,https://github.com/lindsay78,https://linkedin.com/in/dudleynicholas,Advanced
+STU004,Sandra Montgomery,barbara10@example.net,NUML,BS Artificial Intelligence,Artificial Intelligence,https://github.com/kendragalloway,https://linkedin.com/in/michellejames,Beginner
+STU005,Roy Martin,jason41@example.net,Air University,BS Computer Science,UI/UX,https://github.com/amandasanchez,https://linkedin.com/in/ogray,Advanced
+STU006,Colleen Nguyen,perezantonio@example.com,COMSATS University Islamabad,BS Information Technology,MERN Stack,https://github.com/nadams,https://linkedin.com/in/jason76,Advanced
+STU007,Maria Thomas,johnhoffman@example.com,GIKI,BS Data Science,MERN Stack,https://github.com/zhurst,https://linkedin.com/in/jeffrey28,Intermediate
+STU008,Peter Callahan Jr.,laurahenderson@example.org,PIEAS,BS Software Engineering,Data Science,https://github.com/djames,https://linkedin.com/in/tasha01,Beginner
+STU009,Kimberly Adams,daniel62@example.com,FAST-NUCES,BS Data Science,Laravel,https://github.com/mckaynancy,https://linkedin.com/in/teresa28,Intermediate
+STU010,Sheila Evans,ericfarmer@example.net,FAST-NUCES,BS Computer Science,Data Science,https://github.com/georgetracy,https://linkedin.com/in/hickmannatasha,Intermediate
+STU011,Elizabeth Brown,millertodd@example.org,NUST,BS Artificial Intelligence,Flutter,https://github.com/davidalvarez,https://linkedin.com/in/josephbrennan,Beginner
+STU012,Daniel Ryan,jenniferross@example.net,UET Taxila,BS Software Engineering,UI/UX,https://github.com/samuel87,https://linkedin.com/in/wrightcaleb,Intermediate
+STU013,Julian Chapman,jonescrystal@example.org,COMSATS University Islamabad,BS Data Science,UI/UX,https://github.com/whiteheadmichele,https://linkedin.com/in/palmerjoshua,Beginner
+STU014,Mr. Nathaniel Khan,esanchez@example.com,NUML,BS Artificial Intelligence,UI/UX,https://github.com/clintonhopkins,https://linkedin.com/in/rodney70,Intermediate
+STU015,Victoria Garcia,zchandler@example.org,PIEAS,BS Software Engineering,UI/UX,https://github.com/jamesherrera,https://linkedin.com/in/robertramirez,Beginner
+STU016,Thomas Ramos,williamsyvette@example.org,NUST,BS Artificial Intelligence,DevOps,https://github.com/housemelinda,https://linkedin.com/in/richardolson,Beginner
+STU017,Stephanie Martin,gallowayjoseph@example.com,Bahria University,BS Artificial Intelligence,Data Science,https://github.com/rodney87,https://linkedin.com/in/jamesrobinson,Beginner
+STU018,Noah Brown,brian97@example.net,NUST,BS Data Science,Laravel,https://github.com/brianromero,https://linkedin.com/in/caseyjones,Intermediate
+STU019,Jennifer David,bethwilliams@example.org,UET Taxila,BS Computer Science,Laravel,https://github.com/ksandoval,https://linkedin.com/in/sarah35,Intermediate
+STU020,James Powers,stephen10@example.com,Air University,BS Software Engineering,DevOps,https://github.com/jonesjason,https://linkedin.com/in/david51,Advanced
+STU021,Jaclyn Moore,cheryl80@example.net,NUST,BS Information Technology,DevOps,https://github.com/sarah12,https://linkedin.com/in/darrell18,Beginner
+STU022,Douglas Clark,james48@example.com,GIKI,BS Computer Science,MERN Stack,https://github.com/rebecca01,https://linkedin.com/in/ccalderon,Intermediate
+STU023,Ray Walsh,evan78@example.net,NUML,BS Software Engineering,DevOps,https://github.com/hhoffman,https://linkedin.com/in/landryhannah,Advanced
+STU024,Andrew Wood,russellwilliams@example.com,GIKI,BS Computer Science,DevOps,https://github.com/nolanjason,https://linkedin.com/in/elizabethgomez,Intermediate
+STU025,Shelly Dickson,sarayoung@example.org,COMSATS University Islamabad,BS Computer Science,Data Science,https://github.com/nicolejohnson,https://linkedin.com/in/kimberly63,Beginner
+STU026,Richard Rodriguez,garrisonjeffrey@example.com,UET Taxila,BS Data Science,Laravel,https://github.com/kevin33,https://linkedin.com/in/kellerraymond,Beginner
+STU027,Benjamin Ayala,darlene68@example.com,Air University,BS Information Technology,DevOps,https://github.com/wilsontara,https://linkedin.com/in/beverlyterrell,Intermediate
+STU028,Kyle Reed,samuel81@example.com,Air University,BS Data Science,Flutter,https://github.com/jonathanfletcher,https://linkedin.com/in/meyerlindsay,Advanced
+STU029,Teresa Mclaughlin,michaeljones@example.net,Punjab University,BS Computer Science,Laravel,https://github.com/cindy14,https://linkedin.com/in/elizabeth56,Beginner
+STU030,Kristen Lee,lbyrd@example.net,Air University,BS Information Technology,UI/UX,https://github.com/richard04,https://linkedin.com/in/jason99,Intermediate
+STU031,Julie Ramos,williamleon@example.net,PIEAS,BS Data Science,UI/UX,https://github.com/donnacampbell,https://linkedin.com/in/clarence34,Intermediate
+STU032,Curtis Johnson,traceycarr@example.org,UET Taxila,BS Computer Science,MERN Stack,https://github.com/operry,https://linkedin.com/in/jennifercruz,Advanced
+STU033,Charles Watts,osbornejeffery@example.net,Punjab University,BS Artificial Intelligence,Data Science,https://github.com/pwilliams,https://linkedin.com/in/bryantlaurie,Beginner
+STU034,Victoria Larson,usalazar@example.net,NUST,BS Computer Science,DevOps,https://github.com/jrivas,https://linkedin.com/in/vmerritt,Beginner
+STU035,Joanna Walton,katie87@example.net,NUML,BS Information Technology,Artificial Intelligence,https://github.com/joshuajones,https://linkedin.com/in/jimmy55,Intermediate
+STU036,Angela Hernandez,tbenson@example.org,NUML,BS Information Technology,Flutter,https://github.com/perrymark,https://linkedin.com/in/nperry,Advanced
+STU037,Jean Carrillo,gateskathy@example.com,Bahria University,BS Information Technology,Data Science,https://github.com/wsmith,https://linkedin.com/in/karen68,Beginner
+STU038,Kimberly Morrison,tracynelson@example.com,NUST,BS Information Technology,Data Science,https://github.com/priceelizabeth,https://linkedin.com/in/dramsey,Intermediate
+STU039,Veronica Ferguson,qvargas@example.org,UET Taxila,BS Artificial Intelligence,Laravel,https://github.com/dayderek,https://linkedin.com/in/qwhite,Intermediate
+STU040,Daniel Murphy,aramirez@example.com,FAST-NUCES,BS Data Science,Artificial Intelligence,https://github.com/ruizkaitlyn,https://linkedin.com/in/cookemichael,Advanced
+STU041,Rachael Pearson,herringjames@example.org,Bahria University,BS Information Technology,Data Science,https://github.com/johnwells,https://linkedin.com/in/elliottjeffery,Beginner
+STU042,Pamela Jackson,stricklandfrank@example.com,GIKI,BS Artificial Intelligence,Data Science,https://github.com/lanesarah,https://linkedin.com/in/tsanders,Advanced
+STU043,Kevin Rivas,curtisbarton@example.net,Bahria University,BS Information Technology,UI/UX,https://github.com/hoganashlee,https://linkedin.com/in/reedross,Beginner
+STU044,Jonathan Peterson,gshort@example.com,FAST-NUCES,BS Software Engineering,Data Science,https://github.com/cynthia72,https://linkedin.com/in/hthompson,Beginner
+STU045,Debra Morton,umarshall@example.net,GIKI,BS Information Technology,Artificial Intelligence,https://github.com/marcus31,https://linkedin.com/in/nicole37,Advanced
+STU046,Mary Rogers,lrosales@example.com,UET Taxila,BS Data Science,Artificial Intelligence,https://github.com/michaelgreen,https://linkedin.com/in/nicole48,Beginner
+STU047,Travis Miller,wfreeman@example.org,UET Taxila,BS Software Engineering,MERN Stack,https://github.com/fbrewer,https://linkedin.com/in/fmcguire,Beginner
+STU048,Jared Sanchez,thomas85@example.com,Air University,BS Information Technology,Artificial Intelligence,https://github.com/michael74,https://linkedin.com/in/john13,Beginner
+STU049,Patrick Tapia,jamesrodgers@example.com,Punjab University,BS Artificial Intelligence,Data Science,https://github.com/tina34,https://linkedin.com/in/michaelturner,Advanced
+STU050,Beth Williams,tranheidi@example.org,FAST-NUCES,BS Computer Science,DevOps,https://github.com/agarcia,https://linkedin.com/in/taylor75,Intermediate
