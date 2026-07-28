@@ -1,0 +1,6 @@
+certificate_id,name,issuer,level
+CERT001,Python Programming,Ezitech,Beginner
+CERT002,Machine Learning,Ezitech,Intermediate
+CERT003,AI Engineering,Ezitech,Advanced
+CERT004,Docker Essentials,Ezitech,Intermediate
+CERT005,FastAPI Development,Ezitech,Intermediate

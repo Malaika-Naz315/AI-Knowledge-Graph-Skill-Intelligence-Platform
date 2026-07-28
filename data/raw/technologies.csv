@@ -1,0 +1,16 @@
+technology_id,name,category,version
+TECH001,Python,Programming Language,3.12
+TECH002,FastAPI,Backend Framework,Latest
+TECH003,Neo4j,Graph Database,5.x
+TECH004,LangChain,AI Framework,Latest
+TECH005,Docker,Containerization,Latest
+TECH006,React,Frontend Framework,19
+TECH007,MongoDB,Database,8
+TECH008,TensorFlow,Deep Learning,2.x
+TECH009,Laravel,Backend Framework,12
+TECH010,Flutter,Mobile Framework,3.x
+TECH011,MERN Stack,Full Stack,Latest
+TECH012,SQL,Database,Standard
+TECH013,Redis,Caching,Latest
+TECH014,GitHub,Version Control,Cloud
+TECH015,VS Code,IDE,Latest
