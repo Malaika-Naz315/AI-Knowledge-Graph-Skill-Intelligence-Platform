@@ -1,4 +1,4 @@
-from backend.app.graph.neo4j_driver import Neo4jConnection
+from app.graph.neo4j_driver import Neo4jConnection
 
 
 def create_constraints():
