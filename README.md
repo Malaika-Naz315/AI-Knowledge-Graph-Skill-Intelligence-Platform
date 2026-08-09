@@ -1204,3 +1204,13 @@ The project demonstrates how a Knowledge Graph can be combined with a modern web
 
 **Team:** Malaika Naz & Saba Hayat
 
+## 🎥 Project Demo
+
+Want to see the platform in action?
+
+Watch our complete project walkthrough covering the project structure, Neo4j Knowledge Graph, FastAPI APIs, authentication, dashboards, recommendation engine, HR module, and frontend.
+
+### ▶️ Watch the Full Demo
+
+[🎬 AI Knowledge Graph & Skill Intelligence Platform — Project Demo](docs/Demo/AIKG-demo-video.mp4)
+
