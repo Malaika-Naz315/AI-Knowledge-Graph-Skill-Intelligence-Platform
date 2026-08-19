@@ -15,7 +15,7 @@ class GraphLoader:
                 os.getenv("NEO4J_PASSWORD")
             )
         )
-        self.database = os.getenv("NEO4J_DATABASE", "neo4j")
+        self.database = os.getenv("NEO4J_DATABASE", "aikg")
 
     def close(self):
         self.driver.close()
