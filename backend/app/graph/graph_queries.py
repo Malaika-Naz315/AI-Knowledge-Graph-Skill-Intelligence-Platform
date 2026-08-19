@@ -6,7 +6,7 @@ class GraphQueries:
     def __init__(self):
      self.connection = Neo4jConnection()
      self.driver = self.connection.driver
-     self.database = "aikg"
+     self.database = "neo4j"
 
     def execute_query(self, query, parameters=None):
 
