@@ -12,8 +12,8 @@ import ProtectedRoute from "./components/ProtectedRoute";
 // AUTH
 // =====================================================
 
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Login from "./pages/login";
+import Signup from "./pages/signup";
 
 // =====================================================
 // MAIN PAGES
