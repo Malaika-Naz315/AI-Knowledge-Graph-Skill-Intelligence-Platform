@@ -14,3 +14,4 @@ pydantic
 matplotlib
 plotly
 jupyter
+passlib[bcrypt]
