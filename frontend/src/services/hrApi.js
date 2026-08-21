@@ -50,7 +50,7 @@ HR_API.interceptors.response.use(
 // =====================================================
 
 export const getHRProfile = async () => {
-  const response = await HR_API.get("/hr/profile");
+  const response = await HR_API.get("/hr/profile/");
   return response.data;
 };
 
@@ -59,7 +59,7 @@ export const getHRProfile = async () => {
 // =====================================================
 
 export const getHRDashboard = async () => {
-  const response = await HR_API.get("/hr/dashboard");
+  const response = await HR_API.get("/hr/dashboard/");
   return response.data;
 };
 
@@ -68,7 +68,7 @@ export const getHRDashboard = async () => {
 // =====================================================
 
 export const getHRStudents = async () => {
-  const response = await HR_API.get("/hr/students");
+  const response = await HR_API.get("/hr/students/");
   return response.data;
 };
 
@@ -88,7 +88,7 @@ export const getHRStudentProfile = async (studentId) => {
 // =====================================================
 
 export const getHRMentors = async () => {
-  const response = await HR_API.get("/hr/mentors");
+  const response = await HR_API.get("/hr/mentors/");
   return response.data;
 };
 
@@ -97,7 +97,7 @@ export const getHRMentors = async () => {
 // =====================================================
 
 export const getHRAnalytics = async () => {
-  const response = await HR_API.get("/hr/analytics");
+  const response = await HR_API.get("/hr/analytics/");
   return response.data;
 };
 
@@ -106,7 +106,7 @@ export const getHRAnalytics = async () => {
 // =====================================================
 
 export const getHRReports = async () => {
-  const response = await HR_API.get("/hr/reports");
+  const response = await HR_API.get("/hr/reports/");
   return response.data;
 };
 

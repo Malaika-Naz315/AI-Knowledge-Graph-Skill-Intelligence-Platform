@@ -121,7 +121,7 @@ export const getQuestionSuggestions = async () => {
 
   const response = await API.get(
 
-    "/recommendations/questions"
+    "/recommendations/questions/"
 
   );
 
