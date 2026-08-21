@@ -1,11 +1,13 @@
 import axios from "axios";
 
 const HR_API = axios.create({
-  baseURL: "http://127.0.0.1:8000",
+  baseURL: "https://ai-knowledge-graph-skill-intelligence-platform-production-7698.up.railway.app",
   headers: {
     "Content-Type": "application/json",
   },
 });
+
+
 
 // =====================================================
 // JWT TOKEN
