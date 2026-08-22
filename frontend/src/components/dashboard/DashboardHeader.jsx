@@ -4,476 +4,504 @@ import {
   FaCircle,
 } from "react-icons/fa";
 
+import { jsPDF } from "jspdf";
+
 
 function DashboardHeader({ refresh }) {
 
 
-const exportReport = () => {
+  const exportReport = () => {
 
-const data = {
-project:
-"AI Knowledge Graph & Skill Intelligence Platform",
+    const pdf = new jsPDF();
 
-team:[
-"Malaika Naz - Backend",
-"Saba Hayat - Frontend"
-],
+    // =====================================================
+    // TITLE
+    // =====================================================
 
-status:"System Operational"
+    pdf.setFontSize(22);
+    pdf.setFont("helvetica", "bold");
 
-};
+    pdf.text(
+      "AI Knowledge Graph & Skill Intelligence Platform",
+      20,
+      25
+    );
 
 
-const blob = new Blob(
-[
-JSON.stringify(data,null,2)
-],
-{
-type:"application/json"
-}
-);
+    // =====================================================
+    // SUBTITLE
+    // =====================================================
 
+    pdf.setFontSize(12);
+    pdf.setFont("helvetica", "normal");
 
-const url = URL.createObjectURL(blob);
+    pdf.text(
+      "Project Report",
+      20,
+      35
+    );
 
 
-const link=document.createElement("a");
+    // =====================================================
+    // LINE
+    // =====================================================
 
-link.href=url;
+    pdf.setLineWidth(0.5);
 
-link.download="AI_Knowledge_Graph_Report.json";
+    pdf.line(
+      20,
+      40,
+      190,
+      40
+    );
 
-link.click();
 
+    // =====================================================
+    // PROJECT INFORMATION
+    // =====================================================
 
-URL.revokeObjectURL(url);
+    pdf.setFontSize(15);
+    pdf.setFont("helvetica", "bold");
 
+    pdf.text(
+      "Project Overview",
+      20,
+      55
+    );
 
-};
 
+    pdf.setFontSize(11);
+    pdf.setFont("helvetica", "normal");
 
 
-return (
+    const overview = [
+      "Enterprise intelligence platform connecting students,",
+      "mentors, skills, technologies, projects and AI-powered",
+      "recommendations using Neo4j Knowledge Graph."
+    ];
 
-<div
 
-className="
-relative
-overflow-hidden
-rounded-3xl
-border
-border-slate-200
-bg-[#F8FAFC]
-p-8
-shadow-sm
-"
+    pdf.text(
+      overview,
+      20,
+      65
+    );
 
->
 
+    // =====================================================
+    // TECHNOLOGIES
+    // =====================================================
 
-{/* Background Design */}
+    pdf.setFontSize(15);
+    pdf.setFont("helvetica", "bold");
 
+    pdf.text(
+      "Technology Stack",
+      20,
+      95
+    );
 
-<div
 
-className="
-absolute
--right-20
--top-20
-h-72
-w-72
-rounded-full
-bg-blue-100
-blur-3xl
-"
+    pdf.setFontSize(11);
+    pdf.setFont("helvetica", "normal");
 
-/>
+    pdf.text(
+      "Backend: FastAPI, Python",
+      20,
+      105
+    );
 
+    pdf.text(
+      "Database: Neo4j Knowledge Graph",
+      20,
+      113
+    );
 
+    pdf.text(
+      "Frontend: React, Tailwind CSS",
+      20,
+      121
+    );
 
-<div
 
-className="
-absolute
--left-20
--bottom-20
-h-60
-w-60
-rounded-full
-bg-indigo-100
-blur-3xl
-"
+    // =====================================================
+    // TEAM
+    // =====================================================
 
-/>
+    pdf.setFontSize(15);
+    pdf.setFont("helvetica", "bold");
 
+    pdf.text(
+      "Development Team",
+      20,
+      140
+    );
 
 
-<div className="relative flex flex-col lg:flex-row justify-between gap-8">
+    pdf.setFontSize(11);
+    pdf.setFont("helvetica", "normal");
 
 
+    pdf.text(
+      "Malaika Naz",
+      20,
+      150
+    );
 
-{/* LEFT CONTENT */}
+    pdf.text(
+      "Backend & Knowledge Graph - FastAPI, Neo4j, Python",
+      20,
+      158
+    );
 
 
-<div className="max-w-3xl">
+    pdf.text(
+      "Saba Hayat",
+      20,
+      172
+    );
 
+    pdf.text(
+      "Frontend Development - React, Tailwind, UI/UX",
+      20,
+      180
+    );
 
 
-<span
+    // =====================================================
+    // SYSTEM STATUS
+    // =====================================================
 
-className="
-inline-flex
-items-center
-rounded-full
-bg-blue-50
-border
-border-blue-100
-px-4
-py-1
-text-xs
-font-semibold
-uppercase
-tracking-widest
-text-blue-700
-"
+    pdf.setFontSize(15);
+    pdf.setFont("helvetica", "bold");
 
->
+    pdf.text(
+      "System Status",
+      20,
+      200
+    );
 
-Ezitech Internship Project
 
-</span>
+    pdf.setFontSize(11);
+    pdf.setFont("helvetica", "normal");
 
+    pdf.text(
+      "Status: System Operational",
+      20,
+      210
+    );
 
+    pdf.text(
+      "Database: Neo4j Graph Database Connected",
+      20,
+      218
+    );
 
 
-<h1
+    // =====================================================
+    // REPORT DATE
+    // =====================================================
 
-className="
-mt-5
-text-4xl
-lg:text-5xl
-font-bold
-leading-tight
-text-slate-900
-"
+    const reportDate =
+      new Date().toLocaleString();
 
->
 
-AI Knowledge Graph &
+    pdf.setFontSize(9);
 
-<br/>
+    pdf.text(
+      `Report generated on: ${reportDate}`,
+      20,
+      280
+    );
 
-<span className="text-blue-700">
 
-Skill Intelligence Platform
+    // =====================================================
+    // DOWNLOAD PDF
+    // =====================================================
 
-</span>
+    pdf.save(
+      "AI_Knowledge_Graph_Project_Report.pdf"
+    );
 
+  };
 
-</h1>
 
+  return (
 
+    <div
 
+      className="
+      relative
+      overflow-hidden
+      rounded-3xl
+      border
+      border-slate-200
+      bg-[#F8FAFC]
+      p-8
+      shadow-sm
+      "
 
+    >
 
-<p
 
-className="
-mt-5
-max-w-2xl
-text-lg
-leading-7
-text-slate-600
-"
+      {/* Background Design */}
 
->
+      <div
 
-Enterprise intelligence platform connecting students,
-mentors, skills, technologies, projects and
-AI-powered recommendations using Neo4j Knowledge Graph.
+        className="
+        absolute
+        -right-20
+        -top-20
+        h-72
+        w-72
+        rounded-full
+        bg-blue-100
+        blur-3xl
+        "
 
-</p>
+      />
 
 
+      <div
 
+        className="
+        absolute
+        -left-20
+        -bottom-20
+        h-60
+        w-60
+        rounded-full
+        bg-indigo-100
+        blur-3xl
+        "
 
+      />
 
 
+      <div className="relative flex flex-col justify-between gap-8 lg:flex-row">
 
-{/* TEAM */}
 
+        {/* LEFT CONTENT */}
 
+        <div className="max-w-3xl">
 
-<div className="mt-7 flex flex-wrap gap-10">
 
+          <span
 
+            className="
+            inline-flex
+            items-center
+            rounded-full
+            border
+            border-blue-100
+            bg-blue-50
+            px-4
+            py-1
+            text-xs
+            font-semibold
+            uppercase
+            tracking-widest
+            text-blue-700
+            "
 
-<div>
+          >
 
+            Ezitech Internship Project
 
-<p
+          </span>
 
-className="
-text-xs
-uppercase
-tracking-wider
-text-slate-400
-"
 
->
+          <h1
 
-Backend & Knowledge Graph
+            className="
+            mt-5
+            text-4xl
+            font-bold
+            leading-tight
+            text-slate-900
+            lg:text-5xl
+            "
 
-</p>
+          >
 
+            AI Knowledge Graph &
 
+            <br />
 
-<h3
+            <span className="text-blue-700">
 
-className="
-mt-1
-font-semibold
-text-slate-900
-"
+              Skill Intelligence Platform
 
->
+            </span>
 
-Malaika Naz
+          </h1>
 
-</h3>
 
+          <p
 
-<p className="text-sm text-slate-500">
+            className="
+            mt-5
+            max-w-2xl
+            text-lg
+            leading-7
+            text-slate-600
+            "
 
-FastAPI • Neo4j • Python
+          >
 
-</p>
+            Enterprise intelligence platform connecting students,
+            mentors, skills, technologies, projects and
+            AI-powered recommendations using Neo4j Knowledge Graph.
 
+          </p>
 
 
-</div>
+          {/* TEAM */}
 
+          <div className="mt-7 flex flex-wrap gap-10">
 
 
+            <div>
 
+              <p className="text-xs uppercase tracking-wider text-slate-400">
 
+                Backend & Knowledge Graph
 
-<div>
+              </p>
 
 
-<p
+              <h3 className="mt-1 font-semibold text-slate-900">
 
-className="
-text-xs
-uppercase
-tracking-wider
-text-slate-400
-"
+                Malaika Naz
 
->
+              </h3>
 
-Frontend Development
 
-</p>
+              <p className="text-sm text-slate-500">
 
+                FastAPI • Neo4j • Python
 
+              </p>
 
-<h3
+            </div>
 
-className="
-mt-1
-font-semibold
-text-slate-900
-"
 
->
+            <div>
 
-Saba Hayat
+              <p className="text-xs uppercase tracking-wider text-slate-400">
 
-</h3>
+                Frontend Development
 
+              </p>
 
-<p className="text-sm text-slate-500">
 
-React • Tailwind • UI/UX
+              <h3 className="mt-1 font-semibold text-slate-900">
 
-</p>
+                Saba Hayat
 
+              </h3>
 
 
-</div>
+              <p className="text-sm text-slate-500">
 
+                React • Tailwind • UI/UX
 
+              </p>
 
-</div>
+            </div>
 
+          </div>
 
 
+          {/* STATUS */}
 
+          <div className="mt-8 flex items-center gap-3">
 
 
+            <FaCircle className="text-xs text-green-500" />
 
 
-{/* STATUS */}
+            <span className="text-sm font-medium text-slate-600">
 
+              System Operational
 
-<div
+            </span>
 
-className="
-mt-8
-flex
-items-center
-gap-3
-"
+          </div>
 
->
+        </div>
 
 
-<FaCircle
+        {/* BUTTONS */}
 
-className="
-text-green-500
-text-xs
-"
+        <div className="flex flex-col justify-center gap-4">
 
-/>
 
+          <button
 
-<span
+            onClick={refresh}
 
-className="
-text-sm
-font-medium
-text-slate-600
-"
+            className="
+            flex
+            items-center
+            justify-center
+            gap-3
+            rounded-xl
+            bg-[#0B1120]
+            px-6
+            py-3
+            font-medium
+            text-white
+            transition
+            hover:bg-slate-800
+            hover:shadow-lg
+            "
 
->
+          >
 
-System Operational
+            <FaSyncAlt />
 
-</span>
+            Refresh Dashboard
 
+          </button>
 
 
-</div>
+          <button
 
+            onClick={exportReport}
 
+            className="
+            flex
+            items-center
+            justify-center
+            gap-3
+            rounded-xl
+            border
+            border-slate-300
+            bg-white
+            px-6
+            py-3
+            font-medium
+            text-slate-700
+            transition
+            hover:bg-slate-100
+            "
 
+          >
 
+            <FaDownload />
 
-</div>
+            Export PDF Report
 
+          </button>
 
+        </div>
 
+      </div>
 
+    </div>
 
-
-
-
-
-{/* BUTTONS */}
-
-
-
-<div
-
-className="
-flex
-flex-col
-justify-center
-gap-4
-"
-
->
-
-
-<button
-
-onClick={refresh}
-
-className="
-flex
-items-center
-justify-center
-gap-3
-rounded-xl
-bg-[#0B1120]
-px-6
-py-3
-font-medium
-text-white
-transition
-hover:bg-slate-800
-hover:shadow-lg
-"
-
->
-
-
-<FaSyncAlt/>
-
-
-Refresh Dashboard
-
-
-</button>
-
-
-
-
-
-
-
-<button
-
-onClick={exportReport}
-
-className="
-flex
-items-center
-justify-center
-gap-3
-rounded-xl
-border
-border-slate-300
-bg-white
-px-6
-py-3
-font-medium
-text-slate-700
-transition
-hover:bg-slate-100
-"
-
->
-
-
-<FaDownload/>
-
-
-Export Report
-
-
-</button>
-
-
-
-
-</div>
-
-
-
-
-
-
-</div>
-
-
-</div>
-
-
-);
-
+  );
 
 }
 
