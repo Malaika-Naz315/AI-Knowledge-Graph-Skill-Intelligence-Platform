@@ -13,7 +13,10 @@ function ProtectedRoute({
 
   const location = useLocation();
 
-  // Restore authentication first
+  // ============================================
+  // RESTORE AUTHENTICATION
+  // ============================================
+
   if (loading) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-slate-100">
@@ -30,7 +33,10 @@ function ProtectedRoute({
     );
   }
 
-  // Not logged in
+  // ============================================
+  // NOT LOGGED IN
+  // ============================================
+
   if (!isAuthenticated()) {
     return (
       <Navigate
@@ -41,19 +47,32 @@ function ProtectedRoute({
     );
   }
 
-  // Role protection
-  if (
-    requiredRole &&
-    user?.role?.toUpperCase() !==
-      requiredRole.toUpperCase()
-  ) {
-    return (
-      <Navigate
-        to="/dashboard"
-        replace
-      />
-    );
+  // ============================================
+  // ROLE PROTECTION
+  // ============================================
+
+  if (requiredRole) {
+    const currentRole = String(user?.role || "")
+      .trim()
+      .toLowerCase();
+
+    const allowedRole = String(requiredRole)
+      .trim()
+      .toLowerCase();
+
+    if (currentRole !== allowedRole) {
+      return (
+        <Navigate
+          to="/dashboard"
+          replace
+        />
+      );
+    }
   }
+
+  // ============================================
+  // ACCESS GRANTED
+  // ============================================
 
   return children;
 }
